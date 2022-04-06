@@ -1,0 +1,20 @@
+.table-view-modal {
+  width: 80vw;
+  height: 80vh;
+}
+.view-table-footer-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.table-container {
+  height: 70vh;
+  width: 100%;
+  overflow-y: scroll;
+  font-size: 0.8rem;
+}
+.multiFile-wrap {
+  width: 100%;
+  padding: 2rem;
+}

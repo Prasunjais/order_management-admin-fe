@@ -1,0 +1,51 @@
+$medium: 1325px;
+
+.btn-label-txt {
+  font-size: 0.9vw;
+  color: white;
+}
+.MuiTableContainer-root {
+  overflow-x: unset !important;
+}
+.MuiTableCell-body {
+  @media screen and (max-width: $medium) {
+    padding: 8px !important;
+  }
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.btn-success {
+  background-color: #35c97f;
+  border-color: #35c97f;
+}
+.btn-success:hover {
+  background-color: #66c495;
+  border-color: #66c495;
+}
+.btn-primary {
+  background-color: #0a759e !important;
+  border-color: #0a759e !important;
+}
+.btn-primary:hover {
+  background-color: #5c8596 !important;
+  border-color: #5c8596 !important;
+}
+.btn-info {
+  background-color: #06bce9 !important;
+  border-color: #06bce9 !important;
+}
+.btn-info:hover {
+  background-color: #9ad0dd !important;
+  border-color: #9ad0dd !important;
+  color: white !important;
+}
+.btn-info:focus {
+  background-color: #06bce9 !important;
+  border-color: #06bce9 !important;
+  color: white !important;
+}

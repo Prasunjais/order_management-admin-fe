@@ -1,0 +1,43 @@
+.add-budget-card {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 40vh;
+  max-height: 75vh;
+  margin-bottom: 2vw;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  line-height: 2vw;
+  .card-header {
+    background-color: #0b7b97;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    color: white;
+    .addIcon {
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: 1vw;
+      margin-right: 1vw;
+    }
+    .add-budget-card-header {
+      text-transform: uppercase;
+      margin-top: auto;
+      margin-bottom: auto;
+      font-size: 1.5rem;
+    }
+  }
+  .add-budget-input-text {
+    width: 70%;
+    margin-left: 18vw;
+    font-size: unset;
+  }
+  .prj-budget-btn {
+    width: 20%;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: unset;
+  }
+}

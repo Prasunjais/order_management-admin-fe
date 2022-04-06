@@ -1,0 +1,13 @@
+.equipment-search-label {
+  text-transform: uppercase;
+}
+.magnifying-glass {
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  position: absolute;
+  top: 13vh;
+  right: 22px;
+  z-index: 2;
+}

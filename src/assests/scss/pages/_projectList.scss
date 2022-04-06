@@ -1,0 +1,36 @@
+$small: 425px;
+$medium: 768px;
+$large: 1024px;
+
+a {
+  color: unset;
+  text-decoration: unset;
+}
+
+.cancel-icon {
+  display: table-caption;
+  margin-top: -110px;
+  margin-left: 255px;
+  cursor: pointer;
+  @media screen and (max-width: $small) {
+    margin-top: -37px;
+    margin-left: 263px;
+    font-size: small;
+  }
+  @media screen and (min-width: $small) and (max-width: $medium) {
+    margin-top: -48px;
+    margin-left: 259px;
+  }
+  @media screen and (min-width: "856px") and (max-width: $large) {
+    margin-top: -51px;
+    margin-left: 260px;
+  }
+  @media screen and (min-width: $large) and (max-width: "1618px") {
+    margin-top: -83px;
+    margin-left: 255px;
+  }
+  @media screen and (min-width: "1618px") {
+    margin-top: -110px;
+    margin-left: 255px;
+  }
+}

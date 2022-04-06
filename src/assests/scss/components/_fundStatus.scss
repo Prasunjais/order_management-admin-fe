@@ -1,0 +1,19 @@
+.fund-status-body {
+  height: 60vh;
+}
+.budget-number {
+  font-size: 1.5vw;
+}
+.fund-table {
+  thead tr th {
+    background-color: #0a759e;
+    text-transform: uppercase;
+    font-size: 1.4vw;
+    color: white;
+  }
+  tbody tr td {
+    font-size: 1vw;
+    line-height: 5rem;
+    font-weight: 600;
+  }
+}

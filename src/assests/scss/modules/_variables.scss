@@ -1,0 +1,36 @@
+// Custom variables and boostrap overrides
+
+$body-color: #222;
+$input-color: #222;
+$theme-gradient: linear-gradient(#2252e5, #01afee);
+$primary: #0031b0;
+$secondary: #2e2d2d;
+$gray: #c4c4c4;
+$orange: #ff6e07;
+$body-bg: #f5f7fa;
+$navy-blue: #0b7b97;
+
+$gray-100: #f7f7f7;
+$gray-200: #f1f1f1;
+$gray-300: #dad8d8;
+
+$white: #ffff;
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "orange": $orange,
+  "gray": $gray,
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  fhd: 1600px,
+  uhd: 2560px,
+);
+
+// variables for screen layout customizations
+$font-family-base: "Open Sans", sans-serif;

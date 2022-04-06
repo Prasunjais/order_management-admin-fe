@@ -1,0 +1,54 @@
+.projectEdit-header-hed {
+  color: black;
+  margin-left: 3vw;
+  vertical-align: middle;
+  margin-bottom: unset;
+  font-size: 2vw;
+}
+.projectEdit-header-userName {
+  text-transform: uppercase;
+  margin-left: 2rem;
+  margin-right: 2vw;
+  font-size: 1.5rem;
+}
+.projectEdit-bylineHeader {
+  margin-left: 3vw;
+  color: #0b7b97;
+  width: 8vw;
+  opacity: 1;
+  margin-top: unset;
+  border-radius: 5px;
+  height: 0.25rem !important;
+}
+.projectEdit-homeIcon {
+  width: 10%;
+}
+.equipment-name {
+  color: black;
+  margin-left: 3vw;
+  vertical-align: middle;
+  margin-bottom: unset;
+  .tool-img {
+    width: 2.5rem;
+  }
+  span {
+    color: #dd8109;
+    font-family: Poppins;
+    font-size: 1.2rem;
+  }
+}
+
+.arrow {
+  color: #0a759e;
+  font-size: 2.5rem !important;
+  position: relative;
+  top: 0.5rem;
+}
+
+.logout-link {
+  cursor: pointer;
+  .logout-bottom {
+    color: #0a759e;
+    font-size: 3rem !important;
+  }
+}

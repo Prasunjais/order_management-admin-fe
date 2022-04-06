@@ -1,0 +1,21 @@
+.loader {
+    visibility: hidden;
+    position: absolute !important;
+    opacity: 1;
+    z-index: 99999999 !important;
+    height: 0.5vh !important;
+    top: 0;
+    width: 100%;
+}
+
+.required {
+    &::after {
+        content: "*";
+        color: red;
+    }
+}
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./pages/pages.scss";
+@import "./components/components.scss";
+@import "./modules/modules.scss";

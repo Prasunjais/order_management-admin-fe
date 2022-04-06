@@ -1,0 +1,103 @@
+.ship-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0b7b97;
+}
+
+.tr-dotted-net {
+  position: absolute;
+  top: -5vw;
+  right: 50vw;
+  opacity: 0.5;
+}
+
+.bl-dotted-net {
+  position: absolute;
+  bottom: 0vw;
+  left: 0vw;
+  overflow: hidden;
+  opacity: 0.5;
+}
+
+.login-hed {
+  color: $white;
+  font-size: 3vw;
+  text-shadow: 2px 2px $secondary;
+  margin-top: calc(100vh - 35vh);
+  margin-left: 5vw;
+}
+
+.login-page-homeIcon {
+  position: absolute;
+  top: 2vw;
+  right: 2vw;
+  width: 2.5%;
+}
+
+.login-form-wrap {
+  background-color: $white;
+  height: 100vh;
+}
+
+.dot-login {
+  position: absolute;
+  top: 3vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 30vw;
+  width: 30vw;
+  left: 10%;
+  background-color: $white;
+  border-radius: 50%;
+  border: 10px solid #0b7b97;
+  display: inline-block;
+}
+.comp-logo-login {
+  z-index: 99999;
+  position: absolute;
+  top: 8vw;
+  width: 20%;
+  left: 15%;
+}
+.bylineHeader-blue {
+  height: 4px !important;
+  color: #0b7b97;
+  width: 8vw;
+  opacity: 1;
+  margin-top: unset;
+}
+.input-text {
+  display: block;
+  box-sizing: border-box;
+  width: 50%;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  line-height: 2vw;
+  padding: 10px 15px;
+  margin-bottom: 1.5vw;
+  font-size: 14px;
+}
+.input-label {
+  line-height: 2;
+  text-align: left;
+  display: block;
+  margin-top: 1.5vw;
+  font-weight: 200;
+}
+.submit-btn {
+  width: 50%;
+  margin-top: 2vw;
+  color: $white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+  background-color: #0a759e;
+  border: 1px solid #0a759e;
+  text-transform: uppercase;
+  padding: 10px 15px;
+}
+.error-tag {
+  color: red;
+  margin-top: -1vw;
+  position: absolute;
+}

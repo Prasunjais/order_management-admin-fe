@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1457.253" height="1182.883" viewBox="0 0 1457.253 1182.883">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.1" y1="0.06" x2="1.1" y2="0.94" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2a9dd3"/>
+      <stop offset="0.505" stop-color="#177faf"/>
+      <stop offset="0.902" stop-color="#086892"/>
+      <stop offset="1" stop-color="#086892"/>
+    </linearGradient>
+  </defs>
+  <g id="Blue_Bg" data-name="Blue Bg" transform="translate(476.812 -1060.117)">
+    <path id="Shape_30" data-name="Shape 30" d="M288.062-3.514S264.176,140.948,359.72,209.2c209.963,149.987,1274.038,868.338,1274.038,868.338l-2.6-1081.05Z" transform="translate(-762.22 1165.464)" fill="url(#linear-gradient)"/>
+    <path id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" d="M768.085,260.644l96.677-120.569c26.029-32.46,72.874-37.367,104.633-10.958l134.172,111.575c31.758,26.41,36.4,74.134,10.372,106.6l-96.677,120.568c-26.029,32.461-72.874,37.368-104.632,10.959L778.458,367.239C746.7,340.83,742.056,293.106,768.085,260.644Z" transform="translate(-150.346 1336.233)" fill="#086892"/>
+    <path id="Rounded_Rectangle_1_copy" data-name="Rounded Rectangle 1 copy" d="M654.34-46.649l152.97,78.9C848.5,53.5,865.036,104.591,844.253,146.377l-87.8,176.545c-20.783,41.788-71.018,58.441-112.2,37.2l-152.97-78.9c-41.186-21.243-57.725-72.339-36.942-114.127l87.8-176.543C562.92-51.239,613.155-67.892,654.34-46.649Z" transform="translate(-505.77 1116)" fill="#208aba"/>
+  </g>
+</svg>

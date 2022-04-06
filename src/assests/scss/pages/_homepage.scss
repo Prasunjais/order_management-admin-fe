@@ -1,0 +1,55 @@
+.hed-container {
+  margin-top: calc(100% - 86%);
+  .hed {
+    text-transform: uppercase;
+    color: #0b7b97;
+    font-size: 5vw;
+    font-weight: 600;
+    margin-bottom: unset;
+  }
+  .byline {
+    color: black;
+    font-weight: 600;
+    font-size: 3vw;
+  }
+  .bylineHr {
+    color: #0b7b97;
+    opacity: 1;
+    height: 4px;
+    border: black;
+    border-radius: 15px;
+    width: 40%;
+  }
+  .dot {
+    position: absolute;
+    top: 9vw;
+    height: 30vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 30vw;
+    right: 18.5vw;
+    background-color: $white;
+    border-radius: 50%;
+    border: 10px solid #0b7b97;
+    display: inline-block;
+  }
+  .comp-logo {
+    z-index: 99999;
+    position: absolute;
+    top: 15vw;
+    width: 18%;
+    right: 24vw;
+  }
+  .hed-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 12px;
+  }
+  .hp-btn {
+    width: 10vw;
+    height: 4vw;
+    margin-right: 2rem;
+    color: $white;
+  }
+}

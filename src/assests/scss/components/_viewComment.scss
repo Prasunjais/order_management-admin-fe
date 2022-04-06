@@ -1,0 +1,24 @@
+.comment-header {
+  text-align: justify;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.comment-date {
+  vertical-align: middle;
+  align-self: end;
+  font-weight: 600;
+}
+.comment-body {
+  text-align: justify;
+}
+.comment-author {
+  text-transform: uppercase;
+}
+.comment-footer {
+  vertical-align: baseline;
+}
+.info-icons {
+  margin: auto;
+  width: 4vw !important;
+}
